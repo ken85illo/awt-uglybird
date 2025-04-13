@@ -93,7 +93,7 @@ public class Game extends Canvas implements Runnable, MouseListener {
             g.fillRect(WIDTH * SCALE / 2 - width / 2, 180, width, height);
             g.setColor(Color.black);
             g.setFont(new Font("Arial", Font.BOLD, 30));
-            g.drawString("Play Again?", 240, 215);
+            g.drawString("Play Again?", 225, 215);
         }
 
         // --------------------------------
